@@ -20,3 +20,8 @@ function deleteFromObjectByKey(object, key){
 //  var object = { prop: 1 }
   return object
 }
+// 5 begins
+function destructivelyDeleteFromObjectByKey(object, key){
+  delete object[key]
+  return object
+}
